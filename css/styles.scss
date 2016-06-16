@@ -1,0 +1,53 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: #fcfcfc;
+  padding: 0px;
+  font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 1em;
+  line-height: 1.7em;
+  font-weight: 300;
+  color: rgba(0, 0, 0, 0.7);
+  padding: 10px;
+  padding-top: 45px;
+}
+
+header, footer {
+  width: 100%;
+  height: 400px;
+  background: rgba(0, 0, 0, 0.1);
+  border-radius: 2px;
+  background: url(../img/bg.jpg);
+  background-size: cover;
+}
+
+h1, h2, h3, h4, h5 {
+  font-weight: 300;
+}
+
+section {
+  max-width: 600px;
+  line-height: 1.8em;
+  margin: 0 auto;
+}
+
+.progress-box {
+  position: fixed;
+  width: 100%;
+  padding: 15px;
+  background: #FFD91A;
+  top: 0;
+  left: 0;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.progress {
+  height: 4px;
+  width: 1px;
+  min-width: 10px;
+  border-radius: 19px;
+  background: rgba(0, 0, 0, 0.1);
+  transition: all 0.2s ease;
+}
