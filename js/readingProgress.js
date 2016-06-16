@@ -1,21 +1,20 @@
 document.addEventListener('DOMContentLoaded', function(){
 
   (function startScroller(){
+    // Edit .content to your content container's class (or body to track the page)
     var config = {
       content_container: ".content",
     }
 
     var content = document.querySelector(config.content_container)
+    var progress = document.querySelector('.progress')// The progress bar)
 
     // Measure on scroll
     document.addEventListener('scroll', function(){
-
       var top = content.offsetTop
       var bottom = content.offsetTop + content.offsetHeight
       var scroll = window.scrollY + window.innerHeight
       var percentage = Math.round((scroll - top) / (bottom - top) * 100)
-
-      progress = document.querySelector('.progress')
 
       if (percentage < 0) {
         progress.style.width = "0"
