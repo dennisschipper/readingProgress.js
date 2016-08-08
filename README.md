@@ -1,20 +1,21 @@
 # readingProgress
 ##### Reading progress bar for long form articles.
 
-readingProgress.js will track your scroll progress through an article (or a whole page) and display a progress bar.
+![readingProgress.js](http://www.designfordetails.com/images/readingProgress.gif)
+
+readingProgress.js will track your scroll progress through an article and display a progress bar. It can be configured to only track the article part, or the full page.
 
 Start with
 ```
 npm install
 ```
-to get the appropriate dependances, then
+to get the appropriate package dependances, then
 ```
 grunt
 ```
-to start the livereload & builder task.
+to start the livereload & builder task. Files are automaticaly saved in the /build directory.
 
-
-The progress bar is a couple of simple nested divs.
+The progress bar is a couple of nested divs.
 ```html
 <div class="progress-box">
     <div class="progress"></div>

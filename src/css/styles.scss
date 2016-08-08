@@ -5,7 +5,7 @@
 body {
   background: #fcfcfc;
   padding: 0px;
-  font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Lora", serif;
   font-size: 1em;
   line-height: 1.7em;
   font-weight: 300;
@@ -16,7 +16,7 @@ body {
 
 header, footer {
   width: 100%;
-  height: 400px;
+  height: 200px;
   background: rgba(0, 0, 0, 0.1);
   border-radius: 2px;
   background: url(../img/bg.jpg);
@@ -27,10 +27,23 @@ h1, h2, h3, h4, h5 {
   font-weight: 300;
 }
 
+h1 {
+  display: block;
+  color: rgba(0, 0, 0, 0.5);
+  padding-top: 30px;
+  line-heigh: 2.4em;
+}
+
+p {
+  font-size: 0.9em;
+}
+
 section {
   max-width: 600px;
   line-height: 1.8em;
   margin: 0 auto;
+  text-align: center;
+  padding: 0px 30px;
 }
 
 .progress-box {
