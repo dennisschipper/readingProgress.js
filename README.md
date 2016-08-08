@@ -1,4 +1,4 @@
-# readingProgress
+# readingProgress.js
 ##### Reading progress bar for long form articles.
 
 ![readingProgress.js](http://www.designfordetails.com/images/readingProgress.gif)
