@@ -3,6 +3,7 @@
 
 ![readingProgress.js](http://www.designfordetails.com/images/readingProgress.gif)
 
+
 readingProgress.js will track your scroll progress through an article and display a progress bar. It can be configured to only track the article part, or the full page.
 
 Start with
