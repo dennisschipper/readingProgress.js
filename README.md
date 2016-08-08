@@ -3,6 +3,17 @@
 
 readingProgress.js will track your scroll progress through an article (or a whole page) and display a progress bar.
 
+Start with
+```
+npm install
+```
+to get the appropriate dependances, then
+```
+grunt
+```
+to start the livereload & builder task.
+
+
 The progress bar is a couple of simple nested divs.
 ```html
 <div class="progress-box">
